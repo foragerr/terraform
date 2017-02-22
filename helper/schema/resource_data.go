@@ -362,7 +362,8 @@ func (d *ResourceData) Timeout(key string) time.Duration {
 	}
 
 	// Return system default of 10 minutes
-	return 10 * time.Minute
+	// return 10 * time.Minute
+	return 0
 }
 
 func (d *ResourceData) init() {
